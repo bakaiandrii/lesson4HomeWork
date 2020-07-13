@@ -1,0 +1,5 @@
+
+<dt class="col-sm-3">{{post.id}}. {{post.title}}</dt>
+<dd class="col-sm-9">{{post.body}}</dd>
+<dd class="col-sm-9 offset-sm-3">userId: {{post.userId}}</dd>
+<button (click)="navigateToCmment(post.id)" type="button" class="btn btn-primary btn-sg btn-block">Show comments</button>

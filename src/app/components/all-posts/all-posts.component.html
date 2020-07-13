@@ -1,0 +1,10 @@
+<div class="post-body">
+  <div>
+    <dl class="dl-horizontal">
+      <app-post *ngFor="let post of posts" [post]="post"></app-post>
+    </dl>
+  </div>
+  <div class="comentRouter">
+    <router-outlet></router-outlet>
+  </div>
+</div>
